@@ -1,7 +1,7 @@
 # FieldGateway.LoRa.NetduinoClient
-Sample plug n play [Netduino 2, Netduino Plus 2, Netduino 3, Netduino 3E & Netduino 3 Wifi](https://www.wildernesslabs.co/) clients for my [nRF24L01](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01) field gateway projects
+Sample plug n play [Netduino 2, Netduino Plus 2, Netduino 3, Netduino 3E & Netduino 3 Wifi](https://www.wildernesslabs.co/) clients for my [LoRa](https://lora-alliance.org/) field gateway projects
 
-Thanks to @Gralin for sharing the [nRF24L01 library](https://github.com/gralin/nrf24l01), The [Silicon Labs Si7005](https://www.silabs.com/products/sensors/humidity/si7005) temperature and humidity sensor driver is my own work.
+The [RFM9XLoRa-NetMF](https://github.com/KiwiBryn/RFM9XLoRa-NetMF) and [Silicon Labs Si7005](https://www.silabs.com/products/sensors/humidity/si7005) temperature and humidity sensor drivers are my own work.
 
 My Netduino clients use
 * LoRa Arduino shield
