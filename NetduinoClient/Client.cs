@@ -36,7 +36,7 @@ namespace devMobile.IoT.Netduino.FieldGateway
 
       public NetduinoClient()
       {
-         rfm9XDevice = new Rfm9XDevice(Pins.GPIO_PIN_D10, Pins.GPIO_PIN_D9, Pins.GPIO_PIN_D2);
+         rfm9XDevice = new Rfm9XDevice(SPI.SPI_module.SPI1, Pins.GPIO_PIN_D10, Pins.GPIO_PIN_D9, Pins.GPIO_PIN_D2);
       }
 
       public void Run()
